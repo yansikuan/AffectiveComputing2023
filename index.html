@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://webgazer.cs.brown.edu/webgazer.js?" defer></script>
+    <script src="script.js" defer></script>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            width: 100vw;
+            height: 100vh;
+            grid-gap: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <title>Profile photos</title>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://picsum.photos/200?random=1" alt="Image 1">
+        <img src="https://picsum.photos/200?random=2" alt="Image 2">
+        <img src="https://picsum.photos/200?random=3" alt="Image 3">
+        <img src="https://picsum.photos/200?random=4" alt="Image 4">
+        <img src="https://picsum.photos/200?random=5" alt="Image 5">
+        <img src="https://picsum.photos/200?random=6" alt="Image 6">
+        <img src="https://picsum.photos/200?random=7" alt="Image 7">
+        <img src="https://picsum.photos/200?random=8" alt="Image 8">
+        <img src="https://picsum.photos/200?random=9" alt="Image 9">
+    </div>
+</body>
+</html>
+
